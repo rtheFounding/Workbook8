@@ -1,0 +1,9 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body > a {
+    display: inline-flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    margin-right: 3em;
+}

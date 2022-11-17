@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Edit Todo</title>
+</head>
+
+<body>
+    <a href="index.html"> Home </a>
+    <a href="todo.html"> Find a Todo </a>
+    <a href="new-todo.html"> New Todo </a>
+    <a href="edit-todo.html"> Edit Todo </a>
+    <hr>
+    ID TO EDIT <input id="findId" value="1">
+    <button id="edit"> Edit </button>
+    <hr>
+    <fieldset>
+        <legend> EDIT TODO</legend>
+        <label>
+            TODO Id: <input type="text" id="todoId" value="" readonly><br>
+        </label>
+        <label>
+            User Id: <input type="text" id="userId" value="">
+        </label>
+        <br>
+        <label>
+            Title: <input type="text" id="title" value="">
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="completed"> Completed
+        </label>
+        <br><br>
+        <button id="update"> UPDATE </button>
+    </fieldset>
+
+    <a href="index.html">
+        <button id="cancel"> CANCEL </button>
+    </a>
+
+
+</body>
+<script src="scripts/edit-todo.js"></script>
+
+</html>
